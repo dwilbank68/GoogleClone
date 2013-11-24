@@ -35,6 +35,12 @@ html {
   min-height: 500px;  min-width: 980px;
 }
 
+body {
+  /* body fits the html container to keep the footer at the bottom */
+  position: relative;
+  min-height: 100%;
+}
+
 a {font-family: arial,sans-serif; font-size: small;}
 nav {  height: 50px;   margin-right:27px; }
 nav a {
